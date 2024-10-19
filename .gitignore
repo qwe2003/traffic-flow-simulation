@@ -1,0 +1,2 @@
+# Ignoriere das Script sync-to-pi.sh, da es sensible Informationen nach der Installation enthält
+sync-to-pi.sh
