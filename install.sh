@@ -9,7 +9,7 @@ read -p "Gib den Benutzernamen für den Raspberry Pi ein: " username
 read -p "Gib den Ordnerpfad auf dem Raspberry Pi ein: " directory
 
 # Kopiere die Template-Datei und ersetze die Platzhalter
-cp sync-to-pi_template.sh sync-to-pi.sh
+cp scripts/sync-to-pi_template.sh sync-to-pi.sh
 
 # Abhängig vom Betriebssystem den passenden sed-Befehl verwenden
 if [[ "$os_type" == "Darwin" ]]; then
